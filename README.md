@@ -11,6 +11,7 @@ A simple Python tool to generate secure random passwords with customizable optio
 # How to run
 ```bash
 python generate_password.py
+
 #Example
 Random Password Generator
 ==============================
@@ -28,3 +29,4 @@ Length: 10 characters
 
 # Developer
 **Omar AL 3ngery**-
+
