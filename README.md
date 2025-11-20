@@ -22,11 +22,12 @@ Include numbers ? (y/n , default y):y
  Generated_password: v.$i{"%u&A
 Length: 10 characters
 
-# Technologies Used
+## Technologies Used
 .Python 3.x
 .random library
 .string library
 
-# Developer
+## Developer
 **Omar AL 3ngery**-
+
 
