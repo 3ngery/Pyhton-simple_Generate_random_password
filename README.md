@@ -28,6 +28,7 @@ Length: 10 characters
 .string library
 
 ## Developer
-**Omar AL 3ngery**-
+**Omar AL 3ngery**-[https://github.com/3ngery]
+
 
 
