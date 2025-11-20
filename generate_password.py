@@ -1,4 +1,3 @@
-'''python
 import random
 import string
 
@@ -28,8 +27,8 @@ def main():
 
     try :
         length = int(input("Enter password length (default 12):") or 12 )
-        use_symbols = input("Include special symbols ? (Y/N , default y):").lower() != 'n'
-        use_numbers = input("Include numbers ? (Y/N , default y):").lower() != 'n'
+        use_symbols = input("Include special symbols ? (y/n , default y):").lower() != 'n'
+        use_numbers = input("Include numbers ? (y/n , default y):").lower() != 'n'
 
         password = generate_password(length  , use_symbols , use_numbers)
 
@@ -56,4 +55,5 @@ if __name__ = "__main__":
 
 
     
+
 
