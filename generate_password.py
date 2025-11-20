@@ -2,7 +2,7 @@
 import random
 import string
 
-def generate_password(length=12, use_uppercase=True, use_lowercase=True, use_digits=True, use_special=True):
+def generate_password(length=12, use_symbols=True, use_numbers=True ):
     """
     Generate a random password
     Args:
@@ -56,3 +56,4 @@ if __name__ = "__main__":
 
 
     
+
