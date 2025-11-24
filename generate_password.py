@@ -2,20 +2,12 @@ import random
 import string
 
 def generate_password(length=12, use_symbols=True, use_numbers=True ):
-    """
-    Generate a random password
-    Args:
-        length (int) : password length
-        use_symbols (bool) : Include special symbols
-        use_numbers (bool) : Include numbers
-    Returns:
-        str : Generated password
-    """
+   
     characters = string.ascii_letters + string.digits + string.punctuation
     if use_symbols :
-        characters += string.punctuation
+        characters += string.punctuation + string.ascii_letters
     if use_numbers :
-        characters += string.digits
+        characters += string.digits + string.ascii_letters
     if not characters :
         return "Error : You must select at least one character type "
         
@@ -55,5 +47,6 @@ if __name__ = "__main__":
 
 
     
+
 
 
